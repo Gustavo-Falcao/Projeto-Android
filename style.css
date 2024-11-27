@@ -77,13 +77,8 @@ nav{
 }
 
 .links > a:hover{
-    box-shadow:  1px 1px 6px 1px rgba(0, 0, 0, 0.493);
-    background-color: #044721;
-    transition: 0.5s;
-}
-
-.links > a:active{
     background-color: #3BD37F;
+    transition: 0.5s;
     color: rgb(1, 70, 1);
 }
 
@@ -124,7 +119,7 @@ nav{
 .conteudo-video{
     background-color: #005e29;
     margin: 0;
-    padding: 25px 50px;
+    padding: 30px;
 }
 
 
@@ -218,5 +213,9 @@ footer p{
         margin: 0;
         width: 100%;
         padding: 5px;
+    }
+
+    .conteudo-video {
+        padding: 15px;
     }
 }
